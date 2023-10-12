@@ -352,6 +352,7 @@ class S7(object):
             0x03,  # 1  WORD   ( Data Index )
             str_to_bytes(self.data_bus.get_value(current_ssl["W#16#0003"])),
         )
+        firmware_value[0] = int(firmware_value[0][1:])
         # 16 WORDS  ( Name of plant, padded with (0x00) )
 
         # craft module data 0x0004 - copyright
