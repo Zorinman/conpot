@@ -73,6 +73,12 @@
             <key name="empty">
                 <value type="value">""</value>
             </key>
+            <key name="firmware">
+      <value type="value">"V3.22.7"</value>
+            </key>
+              <key name="hardware">
+              <value type="value">"cpu"</value>
+            </key>
         </key_value_mappings>
     </databus>
 </core>
